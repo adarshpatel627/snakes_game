@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgba(24, 170, 237, 0.855);
+    border: 3px solid  rgba(0, 219, 73, 0.855);
+    width:100vw;
+    height: 100vh;
+}
+#scor{
+    margin-top:25px;
+    /* display: flex; */
+}
+#myscore{
+    height: 90px;
+    width: 90px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding-top:15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    display: inline;
+    float: left ;
+    /* clear: both; */
+    margin-left: 20px;
+
+}
+
+#myhighscore{
+    height: 90px;
+    width: 90px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 22px;
+    margin-right: 20px;
+    display: inline;
+    float: right;
+    /* clear: both; */
+}
+#mycanvas{
+    height: 70vh;
+    width: 80vw;
+    border: 5px solid orange;
+    background-color: black;
+    display: block;
+    margin: auto;
+    
+}
+
+.startScreen{
+    
+    height: 80px;
+    width: 200px;
+   display: block;
+   text-align: center;
+    font-size: 22px;
+   border-radius: 30px;
+   background-color: red;
+   color: white;
+   margin:10px auto;
+
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+}
+.startScreen:hover{
+    background-color: rgb(231, 65, 65);
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
